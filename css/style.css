@@ -1,0 +1,126 @@
+/* Стили страницы авторизации
+
+https://github.io/grishaosher
+
+Desgign: https://www.figma.com/file/FCuuiAG72IunEsrmzn12SA/Login-Page-(Community)?node-id=0%3A1&t=GNXbnVwMFsq8RkZM-0
+
+*/
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+}
+
+section{
+    text-align: center;
+}
+
+form{
+    width: 530px;
+    height: 530px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 13px;
+    text-align: center;
+}
+
+.btnsign {
+    width: 380px;
+    height: 48px;
+    background-color: #007DFA;
+    color: #fff;
+    border-radius: 11px;
+    border-color:#007DFA ;
+    margin-top: 10px;
+    font-size:18px;
+    font-weight: bold;
+    border: 0;
+}
+
+.btnsign:hover{
+    background-color: #0576e7;
+    border-color:#0576e7 ;
+}
+
+.form{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form p{
+ margin-left: 74px;
+}
+
+form h2{
+    font-weight:bold;
+    font-style:initial;
+    text-align: center;
+    padding-top: 90px;
+}
+
+form input{
+    width: 380px;
+    height: 48px;
+    border-radius: 11px;
+    border-color: #bebebf72;
+    margin-top: 15px;
+}
+
+input[type=Email]::placeholder{
+    color:#BEBEBF;
+    padding-left: 13px;
+}
+
+input[type=Password]::placeholder{
+    color:#BEBEBF;
+    padding-left: 13px;
+}
+
+form input:hover{
+    border-color: #bcd9f7;
+    cursor: pointer;
+}
+
+form p{
+    color: #5A5A5D;
+    font-style:initial;
+    display:grid;
+    text-align: left;
+}
+
+
+.LoginText{
+    color: #BEBEBF;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.LoginText p{
+    color: #BEBEBF;
+    text-align: center;
+    display: inline;
+}
+
+.LoginText a{
+    color: #007DFA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.LoginText a:hover {
+    text-decoration: none;
+}
+
+.p-pass{
+    margin-top: 13px;
+}
